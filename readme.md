@@ -1,56 +1,63 @@
-# 🏛️ Legacy – A Family Vault for Memories
+# 🗝️ Legacy - Family Vault Web App
 
-A solo full-stack hackathon project that lets families preserve their most meaningful memories in a secure, collaborative, and personalized digital vault.
+**Legacy** is a secure and beautifully designed **Family Vault web application** built using **HTML**, **CSS**, and **JavaScript**. It allows families to digitally preserve, access, and manage important information like documents, memories, and personal notes in one centralized place.
 
-## 📸 Demo
+## 🔐 What is Legacy?
 
-🔗 [Live Demo](https://legacy-vault.netlify.app/)
+Legacy is a digital legacy manager designed to help families store:
 
+- Personal documents and credentials
+- Family memories and messages
+- Important notes or last wishes
+- Secure access to stored content
 
-
----
-
-## 🚀 Features
-
-### ✅ Core Features
-- 👨‍👩‍👧‍👦 **Shared Vault Access**  
-  Members can create, join, and contribute to shared family vaults.
-
-- 🖼️ **Upload & View Memories**  
-  Upload images to preserve memories — visible to all vault members.
-
-- 🗑️ **Safe Delete Mechanism**  
-  Members can delete their uploads; admins can manage vault content.
-
-- 🎨 **Vault Personalization**  
-  Name, color-theme, or cover photo to make vaults feel personal.
+The goal is to create a timeless digital space for family preservation, emotional connection, and responsible planning.
 
 ---
 
-### ✨ Bonus Features (Extra Points)
-- 🗳️ **Voting-Based Deletion**  
-  Requires a majority vote before deleting sensitive content.
+## 🌟 Features
 
-- 🔐 **Media Verification Flow**  
-  Uploaded content goes through an "approval" state before becoming visible.
+- 🗂️ Categorized vault for storing information
+- 🔏 Secure layout (visual focus on privacy and protection)
+- 📝 Add and view family notes, memories, or documents
+- 📅 Organized layout to maintain generational records
+- 👨‍👩‍👧‍👦 User-friendly UI built for all age groups
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
-- HTML, Tailwind CSS, JavaScript
-
-**Backend:**
-- Node.js, Express.js
-
-**Database:**
-- MongoDB (via Mongoose)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
 ---
 
-## 🧪 Local Setup
+---
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Priyanshuiii2110/Hackathon02
+## 👥 Contributors
+
+This project was collaboratively built and maintained by:
+
+- [**Ayush Srivastava**](https://github.com/ayusshs16)
+- [**Priyanshu**](https://github.com/Priyanshuiii2110)
+
+> ✨ *Special thanks to [Priyanshu](https://github.com/Priyanshuiii2110) for co-developing and contributing major parts of the design and user flow.*
+
+---
+
+## 📬 Contact
+
+For questions, suggestions, or collaborations:
+
+- GitHub: [@ayusshs16](https://github.com/ayusshs16)
+- Email: ayushsrivastava9336@gmail.com
+
+---
+
+---
+
+⭐ If you found this project meaningful, consider giving it a **star**!
+
+
+
