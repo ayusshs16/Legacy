@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ – Legacy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+        /* Add your background image URL here */
+       background-image: url('images/faq.jpg'); 
+        background-size :contain ; 
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .navbar-font { font-family: 'Orbitron', 'Poppins', Arial, sans-serif; letter-spacing: 0.08em; }
+    .navbar-transparent { background: transparent; }
+    .navbar-scrolled { 
+      background: rgba(74, 78, 84, 0.85); 
+      -webkit-backdrop-filter: blur(4px);
+      backdrop-filter: blur(4px);
+      transition: background 0.3s, backdrop-filter 0.3s;
+    }
+     .logo-hover-effect {
+      transition: transform 0.2s ease-in-out;
+    }
+    .logo-hover-effect:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body class="font-[Poppins] text-gray-200 transition-colors duration-500">
+  <div class="fixed inset-0 bg-black/60 -z-10"></div>
+
+  <!-- 1. Header / Navbar -->
+  <header id="main-navbar" class="sticky top-0 z-50 w-full navbar-scrolled">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
+      <!-- Brand and Logo Left -->
+      <a href="home.html" class="flex items-center gap-4">
+        <img src="images/familytree.jpg" alt="Legacy Logo" class="h-10 w-10 rounded-full logo-hover-effect">
+        <span class="text-2xl font-extrabold navbar-font tracking-widest text-white">LEGACY</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex items-center gap-6 text-lg font-semibold navbar-font text-white">
+        <li><a href="home.html#how" class="hover:text-cyan-300 transition-colors">How It Works</a></li>
+        <li><a href="faq.html" class="text-cyan-300 transition-colors">FAQs</a></li>
+        <li><a href="login/signin.html" class="hover:text-cyan-300 transition-colors">Sign Up</a></li>
+        <li><a href="login/login.html" class="bg-gradient-to-r from-green-400 to-cyan-400 text-gray-900 px-5 py-2 rounded-full font-bold hover:from-green-500 hover:to-cyan-500 transition transform hover:scale-105">Login</a></li>
+      </ul>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-white focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-4 6h16"></path></svg>
+        </button>
+      </div>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900/95 backdrop-blur-sm">
+      <ul class="flex flex-col items-center gap-6 py-8 text-xl font-semibold navbar-font text-white">
+        <li><a href="home.html#how" class="hover:text-cyan-300 transition-colors">How It Works</a></li>
+        <li><a href="faq.html" class="text-cyan-300 transition-colors">FAQs</a></li>
+        <li><a href="login/signin.html" class="hover:text-cyan-300 transition-colors">Sign Up</a></li>
+        <li><a href="login/login.html" class="bg-gradient-to-r from-green-400 to-cyan-400 text-gray-900 px-5 py-2 rounded-full font-bold">Login</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- FAQ Section -->
+  <main class="container mx-auto py-16 md:py-24 px-4">
+    <div class="text-center mb-12">
+      <p class="text-lg text-cyan-400 font-semibold tracking-wider">FAQS</p>
+      <h1 class="text-4xl md:text-5xl font-bold mt-2">Frequently Asked Questions</h1>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-x-12 gap-y-10 max-w-5xl mx-auto">
+      <!-- Question 1 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">Do I own my stories?</h2>
+        <p class="text-gray-300">Yes, you own and control the copyright in your stories, including all photos, videos and narrative contained in them.</p>
+      </div>
+      <!-- Question 2 -->
+      <div class="faq-item">
+        
+        <h2 class="text-xl font-semibold mb-3">What happens if I want to leave Legacy?</h2>
+        <p class="text-gray-300">Whilst we'd hope you want to stay, if at any time you want to leave Legacy, whether before or after subscribing, we will make it really easy for you to keep the stories you've already created..</p>
+      </div>
+      <!-- Question 3 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">Are my stories safe and secure?</h2>
+        <p class="text-gray-300">Your account is password protected, and any communications between us and you concerning your password are encrypted.</p>
+      </div>
+      <!-- Question 4 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">Can I use Legacy to collect stories about my baby or young children?</h2>
+        <p class="text-gray-300">Absolutely. You can create a 'Character' for each of your children, and collect stories about them to be shared with them when they are old enough to register (children have to be 13 before joining Legacy).</p>
+      </div>
+      <!-- Question 5 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">How is Legacy different from social media?</h2>
+        <p class="text-gray-300">Legacy is designed to be private and personal. We do not sell or share your data with third parties. We wanted to create a safe and private place for you to capture your personal moments in an authentic way.</p>
+      </div>
+      <!-- Question 6 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">Can I use the Phone app on an Pad?</h2>
+        <p class="text-gray-300">Phone apps are not strictly set up for Pads. However, you can download and use the Legacy Phone on your Pad, but remember that some things won't look as great as they do on an Phone.</p>
+      </div>
+      
+       <!-- Question 7 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">How much does Legacy cost?</h2>
+        <p class="text-gray-300">Legacy is free to download from the App Store. After that you can save up to 30 stories for free before becoming a subscriber. Then it will cost GBP2.99 per month, or its equivalent in your local currency (check this by looking at our product page on the App Store, under In-App Purchases).</p>
+      </div>
+      <!-- Question 8 -->
+      <div class="faq-item">
+        <h2 class="text-xl font-semibold mb-3">Why do I have to subscribe once I reach a certain limit of stories?</h2>
+        <p class="text-gray-300">We promise you a safe private place to store, share and enjoy your precious memories. Unlike some social media networks, there is no advertising and we do not sell or share your data with third parties, so we are not making any money behind the scenes. Your subscription will enable us to continue to keep your stories safely stored, and to innovate, making Legacy an even better experience for you.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+    <footer class="bg-slate-900/50 border-t border-slate-800 py-8 px-4 text-center text-gray-400">
+    <div class="container mx-auto flex flex-col items-center gap-6">
+      <div class="flex items-center gap-4">
+        <img src="images/logo.jpg" alt="Legacy Logo" class="h-8 w-8 rounded-full">
+        <span class="text-xl font-extrabold navbar-font tracking-widest text-white">LEGACY</span>
+      </div>
+      <div class="flex gap-6 flex-wrap justify-center text-base">
+        <a href="#" class="hover:text-cyan-300 transition-colors">About</a>
+        <a href="#" class="hover:text-cyan-300 transition-colors">Privacy</a>
+        <a href="#" class="hover:text-cyan-300 transition-colors">Contact</a>
+      </div>
+      <div class="flex gap-6 mb-4">
+        <!-- Facebook -->
+        <a href="https://facebook.com" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
+        <!-- Instagram -->
+        <a href="https://instagram.com" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 012.153 2.153c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-2.153 2.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-2.153-2.153c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 012.153-2.153c.636-.247 1.363.416 2.427.465 1.024.048 1.378.06 3.808.06zM12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z" clip-rule="evenodd" /></svg></a>
+        <!-- Twitter -->
+        <a href="https://twitter.com" class="hover:text-white transition-colors"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg></a>
+      </div>
+      <div class="text-sm">
+        🔐 Legacy • &copy 2025 • Designed by Shanks ✨ | Keeping Memories Safe 🕊️
+      </div>
+    </div>
+  </footer>
+
+  <script src="../src/js/main.js"></script>
+</body>
+</html>

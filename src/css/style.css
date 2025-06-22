@@ -1,0 +1,28 @@
+/* style.css */
+
+/* Font fallback */
+body {
+  font-family: 'Poppins', Inter, Arial, sans-serif;
+}
+
+/* Floating animation for hero image */
+@keyframes float {
+  0% { transform: translateY(0) scale(1);}
+  50% { transform: translateY(-20px) scale(1.05);}
+  100% { transform: translateY(0) scale(1);}
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* 3D Flower Animation */
+.flower {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  pointer-events: none;
+  z-index: 20;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.08));
+  transition: opacity 0.5s;
+}
